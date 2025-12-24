@@ -1,0 +1,13 @@
+# Coinbase Trading Bot Dependencies
+
+# Official Coinbase Advanced Trade Python SDK
+coinbase-advanced-py>=1.2.0
+
+# Environment variable management
+python-dotenv>=1.0.0
+
+# HTTP requests (used by coinbase SDK internally)
+requests>=2.31.0
+
+# For rate limiting
+ratelimit>=2.2.1
